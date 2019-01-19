@@ -1,0 +1,12 @@
+uk.co.indigo.epc
+uk.co.indigo.play.array_combine
+uk.co.indigo.play.binhexdec
+uk.co.indigo.play.bitset
+uk.co.indigo.play.commons.codec
+uk.co.indigo.play.jdbc
+uk.co.indigo.play.jms
+uk.co.indigo.play.jxta.discovery
+uk.co.indigo.play.jxta.helloworld
+uk.co.indigo.play.patterns.bridge
+uk.co.indigo.play.unsigned
+uk.co.indigo.play.xml
