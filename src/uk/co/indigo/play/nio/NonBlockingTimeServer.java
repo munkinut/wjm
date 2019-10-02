@@ -46,8 +46,8 @@ public class NonBlockingTimeServer {
 			System.out.println("Waiting for connections on port " + port + " ...");
 			while ((selector.select()) > 0) {
 				// get a set of event keys and iterate
-				Set readyKeys = selector.selectedKeys();
-				Iterator i = readyKeys.iterator();
+				Set<SelectionKey> readyKeys = selector.selectedKeys();
+				Iterator<SelectionKey> i = readyKeys.iterator();
 				while (i.hasNext()) {
 					SelectionKey key = (SelectionKey)i.next();
 					if (key.isAcceptable()) {
