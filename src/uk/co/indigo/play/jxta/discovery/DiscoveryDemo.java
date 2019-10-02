@@ -78,7 +78,7 @@ public class DiscoveryDemo implements Runnable, DiscoveryListener {
                            name);
         //printout each discovered peer
         PeerAdvertisement adv = null;
-        Enumeration en = res.getAdvertisements();
+        Enumeration<?> en = res.getAdvertisements();
         if (en != null ) {
             while (en.hasMoreElements()) {
                 adv = (PeerAdvertisement) en.nextElement();
