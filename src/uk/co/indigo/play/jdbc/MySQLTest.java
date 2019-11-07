@@ -27,6 +27,7 @@ public class MySQLTest {
 		super();
 	}
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		try {
 			// connect
